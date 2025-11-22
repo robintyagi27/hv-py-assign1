@@ -103,7 +103,7 @@ python password-python.py
 ---
 
 # 2-Assgiment CPU Health Monitor (Python + psutil)
-
+---
 This project continuously monitors your **CPU usage** and generates an **alert** whenever CPU load exceeds a specified threshold.
 
 The script uses the `psutil` library to get accurate CPU usage data and displays status every few seconds.
@@ -116,20 +116,18 @@ The script uses the `psutil` library to get accurate CPU usage data and displays
 
 - Python 3.x  
 - `psutil` library  
-
 ---
 
 
 ##  Screenshot (Example Output)
 
 <img width="359" height="480" alt="image" src="https://github.com/user-attachments/assets/dc944298-4dfc-4593-9c13-f223d39f7c94" />
-
 ---
 
 ##  Project Structure
-
 ```
 root/
+
 ├── cpu_monitor.py
 ├── README.md
 
