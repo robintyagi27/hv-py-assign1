@@ -3,20 +3,20 @@
 Absolutely — here is a clean, professional, submission-ready README.md for your assignment.
 It includes:
 
-✔ Overview
-✔ Features
-✔ File structure
-✔ How to run
-✔ API usage
-✔ Expected output
-✔ Error handling
-✔ Screenshots placeholders
-✔ Docker instructions (if you want later)
+ Overview
+ Features
+ File structure
+ How to run
+ API usage
+ Expected output
+ Error handling
+ Screenshots placeholders
+ Docker instructions (if you want later)
 
 You can paste this directly into your GitHub repository.
 
-📘 README.md (Complete Submission-Ready Version)
-# 🛠 Auto Configuration Management Parser  
+ README.md (Complete Submission-Ready Version)
+#  Auto Configuration Management Parser  
 A simple DevOps-friendly Python application that automatically:
 
 ✔ Reads a configuration file (`config.ini`)  
@@ -29,7 +29,7 @@ This project demonstrates core DevOps automation concepts including configuratio
 
 ---
 
-## 🚀 Features
+##  Features
 
 - Parse configuration in **INI format**
 - Extract values based on section (e.g., `[Database]`, `[Server]`)
@@ -40,7 +40,7 @@ This project demonstrates core DevOps automation concepts including configuratio
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 
 
@@ -55,7 +55,7 @@ auto-config-mgmt/
 
 ---
 
-## 📄 Sample Input File (config.ini)
+##  Sample Input File (config.ini)
 
 
 
@@ -72,7 +72,7 @@ port = 8080
 
 ---
 
-## 🧠 How It Works
+##  How It Works
 
 1. When you run the application:  
    ```bash
@@ -91,7 +91,7 @@ A Flask API is started on port 5000
 
 The endpoint GET /config returns stored JSON
 
-🛡 Error Handling
+ Error Handling
 
 If config.ini is missing → error printed
 
@@ -99,7 +99,7 @@ If file is unreadable → descriptive error
 
 If JSON output missing → API returns 404 with message
 
-▶️ Running the Application
+ Running the Application
 1. Install Dependencies
 pip install -r requirements.txt
 
@@ -108,11 +108,11 @@ python app.py
 
 3. Access API
 
-📌 Open your browser:
+ Open your browser:
 
 http://localhost:5000/config
 
-📤 Sample API Response
+ Sample API Response
 {
     "Database": {
         "host": "localhost",
@@ -126,7 +126,7 @@ http://localhost:5000/config
     }
 }
 
-📝 config_output.json (Generated Output)
+ config_output.json (Generated Output)
 {
     "Database": {
         "host": "localhost",
@@ -140,16 +140,16 @@ http://localhost:5000/config
     }
 }
 
-📸 Screenshots (Add Yours Here)
-✔ App Running
+ Screenshots (Add Yours Here)
+ App Running
 
 Add screenshot of terminal running python app.py
 
-✔ API Output
+ API Output
 
 Add screenshot of browser showing GET /config response
 
-✔ JSON File
+ JSON File
 
 Add screenshot of config_output.json
 
