@@ -27,6 +27,7 @@ It validates a password based on multiple security rules such as length, upperca
 
 ```
 root/
+
 ├── password-python.py
 ├── README.md
 
