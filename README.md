@@ -39,16 +39,19 @@ At least one digit
 At least one special character
 Prints detailed feedback
 
- Example Output
+# Example Output
+
 Strong Password Example
 --- Password Strength Checker ---
 Enter a password to check (or 'quit' to exit): Test@123
 
 <img width="741" height="118" src="https://github.com/user-attachments/assets/859161b4-b189-4221-9356-50c85bb99038" />
+
 Password Strength: STRONG
 Your password meets all the required criteria.
 
 <img width="590" height="104" src="https://github.com/user-attachments/assets/bad14373-d344-4c15-9d95-d64a9c5893a3" />
+
 Weak Password Example
 Password Strength: WEAK
 Your password does NOT meet the required criteria. Please address the following:
@@ -56,7 +59,8 @@ Your password does NOT meet the required criteria. Please address the following:
 - Password must contain at least one digit.
 
 <img width="741" height="118" src="https://github.com/user-attachments/assets/a51ba79c-155b-4d45-81f1-c0e6f375468f" />
- How to Run
+
+# How to Run
 
 Install Python
 https://www.python.org/
@@ -66,7 +70,7 @@ Save the script as:
 password-python.py
 
 
-Run:
+# Run:
 
 python password-python.py
 
