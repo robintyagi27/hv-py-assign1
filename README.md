@@ -1,5 +1,5 @@
 
-#  Password Strength Checker (Python)
+# 1-Assigment-Password Strength Checker (Python)
 
 This project is a simple **Password Strength Checker** written in Python.  
 It validates a password based on multiple security rules such as length, uppercase letters, lowercase letters, digits, and special characters.
@@ -95,6 +95,96 @@ password-python.py
 ```
 python password-python.py
 ```
+
+
+
+# 2-Assgiment CPU Health Monitor (Python + psutil)
+
+This project continuously monitors your **CPU usage** and generates an **alert** whenever CPU load exceeds a specified threshold.
+
+The script uses the `psutil` library to get accurate CPU usage data and displays status every few seconds.
+
+---
+
+---
+
+##  Requirements
+
+- Python 3.x  
+- `psutil` library  
+
+---
+
+
+##  Screenshot (Example Output)
+
+*(Replace this placeholder image with your actual screenshot)*  
+![CPU Monitor Output](screenshots/cpu-monitor-output.png)
+
+---
+
+##  Project Structure
+
+```
+root/
+├── cpu_monitor.py
+├── README.md
+
+```
+
+---
+
+##  Features
+
+- Real-time CPU monitoring  
+- Adjustable CPU threshold (default: **80%**)  
+- Adjustable monitoring interval  
+- Alerts displayed when CPU usage exceeds threshold  
+- Graceful exit using **Ctrl + C**
+
+---
+
+##  Example Output
+
+```
+Monitoring CPU usage... (Alert threshold: 80%)
+Press Ctrl+C to stop monitoring.
+Current CPU usage: 12%
+Current CPU usage: 18%
+Alert! CPU usage exceeds threshold: 85%
+Current CPU usage: 20%
+```
+
+---
+
+##  How to Run the Script
+
+### 1️ Install dependencies  
+```
+pip install psutil
+```
+
+### 2️ Save the script as:
+```
+cpu_monitor.py
+```
+
+### 3️ Run the script:
+```
+python cpu_monitor.py
+```
+
+---
+
+##  Optional: Adjust the Threshold
+
+Edit the file:
+
+```
+CPU_THRESHOLD = 80
+MONITOR_INTERVAL = 2
+```
+
 
 
 
