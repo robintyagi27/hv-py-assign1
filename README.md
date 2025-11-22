@@ -54,13 +54,15 @@ The script checks the password against the following criteria:
 --- Password Strength Checker ---
 Enter a password to check (or 'quit' to exit): Test@123
 ```
-<img width="741" height="118" alt="image" src="https://github.com/user-attachments/assets/a0e107d8-ecf6-43f1-9821-663c38db1fe4" />
+<img width="741" height="118" alt="image" src="https://github.com/user-attachments/assets/859161b4-b189-4221-9356-50c85bb99038" />
+
 ```
 
 Password Strength: STRONG
 Your password meets all the required criteria.
 ```
-<img width="590" height="104" alt="image" src="https://github.com/user-attachments/assets/6096b56b-df60-4fb1-a41b-a43d224aad05" />
+<img width="590" height="104" alt="image" src="https://github.com/user-attachments/assets/bad14373-d344-4c15-9d95-d64a9c5893a3" />
+
 
 ```
 
