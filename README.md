@@ -24,6 +24,7 @@ No external libraries required (uses built-in re module)
 <img width="1130" height="370" src="https://github.com/user-attachments/assets/c139cc65-c4ea-4982-b51d-0ad7aef88494" />
 
 # Project Structure
+
 root/
 │── password-python.py
 │── README.md
