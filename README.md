@@ -98,13 +98,15 @@ python password-python.py
 
 
 
+---
+
 # 2-Assgiment CPU Health Monitor (Python + psutil)
 
 This project continuously monitors your **CPU usage** and generates an **alert** whenever CPU load exceeds a specified threshold.
 
 The script uses the `psutil` library to get accurate CPU usage data and displays status every few seconds.
-
 ---
+
 
 ---
 
@@ -118,8 +120,7 @@ The script uses the `psutil` library to get accurate CPU usage data and displays
 
 ##  Screenshot (Example Output)
 
-*(Replace this placeholder image with your actual screenshot)*  
-![CPU Monitor Output](screenshots/cpu-monitor-output.png)
+<img width="359" height="480" alt="image" src="https://github.com/user-attachments/assets/dc944298-4dfc-4593-9c13-f223d39f7c94" />
 
 ---
 
@@ -153,6 +154,12 @@ Current CPU usage: 12%
 Current CPU usage: 18%
 Alert! CPU usage exceeds threshold: 85%
 Current CPU usage: 20%
+
+<img width="901" height="297" alt="image" src="https://github.com/user-attachments/assets/03587402-0659-4ede-be09-a59ede3573a2" />
+
+<img width="359" height="480" alt="image" src="https://github.com/user-attachments/assets/30294efc-088f-4101-bc30-96c960db5d76" />
+
+
 ```
 
 ---
@@ -174,52 +181,9 @@ cpu_monitor.py
 python cpu_monitor.py
 ```
 
----
-
-##  Optional: Adjust the Threshold
-
-Edit the file:
-
-```
-CPU_THRESHOLD = 80
-MONITOR_INTERVAL = 2
-```
 
 
-
-
-
-
-
-# Python-script
-
-Absolutely — here is a clean, professional, submission-ready README.md for your assignment.
-It includes:
-
- Overview
- Features
- File structure
- How to run
- API usage
- Expected output
- Error handling
- Screenshots placeholders
- Docker instructions (if you want later)
-
-You can paste this directly into your GitHub repository.
-
- README.md (Complete Submission-Ready Version)
-#  Auto Configuration Management Parser  
-A simple DevOps-friendly Python application that automatically:
-
-✔ Reads a configuration file (`config.ini`)  
-✔ Parses key–value pairs  
-✔ Stores the parsed data as JSON (`config_output.json`)  
-✔ Provides a REST API (`GET /config`) to fetch the stored configuration  
-✔ Performs graceful error handling  
-
-This project demonstrates core DevOps automation concepts including configuration parsing, structured output, and API-based retrieval.
-
+# Assigment 3- automating configuration management
 ---
 
 ##  Features
@@ -235,8 +199,6 @@ This project demonstrates core DevOps automation concepts including configuratio
 
 ##  Project Structure
 
-
-
 auto-config-mgmt/
 │
 ├── app.py # Main application
@@ -249,8 +211,6 @@ auto-config-mgmt/
 ---
 
 ##  Sample Input File (config.ini)
-
-
 
 [Database]
 host = localhost
@@ -268,9 +228,7 @@ port = 8080
 ##  How It Works
 
 1. When you run the application:  
-   ```bash
-   python app.py
-
+   ```bash python app.py
 
 The program reads config.ini
 
@@ -305,6 +263,9 @@ python app.py
 
 http://localhost:5000/config
 
+<img width="1007" height="170" alt="image" src="https://github.com/user-attachments/assets/33e8660c-d192-427b-af67-389d722e7b07" />
+
+
  Sample API Response
 {
     "Database": {
@@ -336,15 +297,18 @@ http://localhost:5000/config
  Screenshots (Add Yours Here)
  App Running
 
-Add screenshot of terminal running python app.py
+<img width="1117" height="240" alt="image" src="https://github.com/user-attachments/assets/25c9b34e-d983-4ec9-84ac-191e881d5a65" />
+
 
  API Output
 
-Add screenshot of browser showing GET /config response
+<img width="1007" height="170" alt="image" src="https://github.com/user-attachments/assets/ecda4262-e24f-41c8-b36d-c644659929b4" />
+
 
  JSON File
 
-Add screenshot of config_output.json
+<img width="669" height="367" alt="image" src="https://github.com/user-attachments/assets/dfeeeb74-7dd1-4c9c-9111-96be801f16cc" />
+
 
 
 
