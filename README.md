@@ -26,8 +26,8 @@ No external libraries required (uses built-in re module)
 # Project Structure
 
 root/
-│── password-python.py
 
+│── password-python.py
 │── README.md
 
 # How It Works
