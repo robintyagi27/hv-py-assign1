@@ -16,7 +16,8 @@ It validates a password based on multiple security rules such as length, upperca
 
 ##  Screenshots
 
-###  Program Running (Example Output)  
+###  Program Running (Example Output) 
+
 <img width="1130" height="370" alt="image" src="https://github.com/user-attachments/assets/c139cc65-c4ea-4982-b51d-0ad7aef88494" />
 
 
@@ -182,8 +183,8 @@ python cpu_monitor.py
 ```
 
 
+# 3-Assigment- automating configuration management
 
-# Assigment 3- automating configuration management
 ---
 
 ##  Features
