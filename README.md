@@ -27,6 +27,7 @@ No external libraries required (uses built-in re module)
 
 root/
 │── password-python.py
+
 │── README.md
 
 # How It Works
