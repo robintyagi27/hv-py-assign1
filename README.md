@@ -71,6 +71,7 @@ Password Strength: WEAK
 Your password does NOT meet the required criteria. Please address the following:
 - Password must contain at least one uppercase letter.
 - Password must contain at least one digit.
+  
 <img width="741" height="118" alt="image" src="https://github.com/user-attachments/assets/a51ba79c-155b-4d45-81f1-c0e6f375468f" />
 
 ```
