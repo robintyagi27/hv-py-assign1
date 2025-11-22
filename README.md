@@ -1,3 +1,101 @@
+
+#  Password Strength Checker (Python)
+
+This project is a simple **Password Strength Checker** written in Python.  
+It validates a password based on multiple security rules such as length, uppercase letters, lowercase letters, digits, and special characters.
+
+---
+---
+
+##  Requirements
+
+- Python 3.x  
+- No external libraries required (uses built-in **re** module)
+
+---
+
+##  Screenshots
+
+###  Program Running (Example Output)  
+<img width="1130" height="370" alt="image" src="https://github.com/user-attachments/assets/c139cc65-c4ea-4982-b51d-0ad7aef88494" />
+
+
+---
+
+##  Project Structure
+
+```
+root/
+├── password-python.py
+├── README.md
+
+```
+
+---
+
+##  How It Works
+
+The script checks the password against the following criteria:
+
+- ✔ Minimum **8 characters**  
+- ✔ At least **one uppercase letter**  
+- ✔ At least **one lowercase letter**  
+- ✔ At least **one digit (0–9)**  
+- ✔ At least **one special character**  
+- ✔ Provides **feedback** if password is weak  
+
+---
+
+##  Example Output
+
+**Strong Password Example:**
+
+```
+--- Password Strength Checker ---
+Enter a password to check (or 'quit' to exit): Test@123
+<img width="741" height="118" alt="image" src="https://github.com/user-attachments/assets/a0e107d8-ecf6-43f1-9821-663c38db1fe4" />
+
+
+Password Strength: STRONG
+Your password meets all the required criteria.
+<img width="590" height="104" alt="image" src="https://github.com/user-attachments/assets/6096b56b-df60-4fb1-a41b-a43d224aad05" />
+
+```
+
+**Weak Password Example:**
+
+```
+Password Strength: WEAK
+Your password does NOT meet the required criteria. Please address the following:
+- Password must contain at least one uppercase letter.
+- Password must contain at least one digit.
+<img width="741" height="118" alt="image" src="https://github.com/user-attachments/assets/a51ba79c-155b-4d45-81f1-c0e6f375468f" />
+
+```
+
+---
+
+##  How to Run This Program
+
+### 1️ Install Python  
+Download from https://www.python.org/
+
+### 2️ Save the script as:
+```
+password-python.py
+```
+
+### 3️ Run the script
+
+```
+python password-python.py
+```
+
+
+
+
+
+
 # Python-script
 
 Absolutely — here is a clean, professional, submission-ready README.md for your assignment.
