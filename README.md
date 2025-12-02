@@ -156,9 +156,13 @@ Lightweight, fast, reliable
 auto-config-mgmt/
 
 │── app.py
+
 │── config.ini
+
 │── config_output.json
+
 │── requirements.txt
+
 │── README.md
 
 # Sample config.ini
