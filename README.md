@@ -153,7 +153,7 @@ Lightweight, fast, reliable
 
 # Project Structure
 
-root/
+auto-config-mgmt/
 
 │── app.py
 
