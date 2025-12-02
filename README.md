@@ -96,6 +96,7 @@ Screenshot
 # Project Structure
 
 root/
+
 │── cpu_monitor.py
 
 
