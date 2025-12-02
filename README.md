@@ -29,7 +29,6 @@ root/
 
 │── password-python.py
 
-│── README.md
 
 # How It Works
 
@@ -98,7 +97,7 @@ Screenshot
 
 root/
 │── cpu_monitor.py
-│── README.md
+
 
 # Features
 
@@ -155,6 +154,7 @@ Lightweight, fast, reliable
 # Project Structure
 
 auto-config-mgmt/
+
 │── app.py
 │── config.ini
 │── config_output.json
